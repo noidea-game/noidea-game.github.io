@@ -1,5 +1,5 @@
 # Purpose of noidea-game.github.io
-This webiste will help serve as a bulletin board, leader board, and management tool for the LARP game *Killer*.
+This website will serve as a bulletin board, leader board, and management tool for the LARP game *Killer*.
 
 # Intended Functionality
 - Formatted for mobile devices
