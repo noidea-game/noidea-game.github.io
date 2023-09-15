@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Bevi Royale</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</header>
+<body>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="menu_active">Menu</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#bulletin_board">Bulletin Board</a>
+            <a href="#leader_board">Leader Board</a>
+            <a href="#how_to_play">How To Play</a>
+            <a href="#gm_contact">GM Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Game Timer -->
+    <div class="header" id="menu_bar">
+        <h1>Game Timer</h1>
+        <label for="prog">Game Progress</label>
+        <progress id="prog" value="32" max="100"> 32% </progress>
+    </div>
+
+    <!-- Main Content -->
+    <button class="form_button">Confirm An Elimination</button>
+    <h1 id="bulletin_board">Bulletin Board</h1>
+        <div class ="scrolling-wrapper">
+            <div class="card">
+                <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h3><b>John Doe</b></h3>
+                    <p>Status: Eliminated</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h3><b>John Doe</b></h3>
+                    <p>Status: Eliminated</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h3><b>John Doe</b></h3>
+                    <p>Status: Eliminated</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h3><b>John Doe</b></h3>
+                    <p>Status: Eliminated</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h3><b>John Doe</b></h3>
+                    <p>Status: Eliminated</p>
+                </div>
+            </div>
+        </div>
+    <h1 id="leader_board">Leader Board</h1>
+      <table style="width:100%">
+        <tr>
+            <th>Agent</th>
+            <th>Team</th>
+            <th>Status</th>
+            <th>Eliminations</th>
+        </tr>
+        <tr>
+            <td>Mohawk</td>
+            <td>The Dudes</td>
+            <td>Active</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Badger</td>
+            <td>The Killers</td>
+            <td>Active</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Zaboomafoo</td>
+            <td>ABBA Squad</td>
+            <td>Active</td>
+            <td>1</td>
+        </tr>
+      </table>
+    <h1 id="how_to_play">How To Play</h1>
+        <button class="accordion">Overview</button>
+            <div class="panel">
+            <ol>
+                <li>Elminate your target.</li>
+                <li>Get their target.</li>
+                <li>Don't get eliminated.</li>
+                <li>Repeate.</li>
+            </ol>
+        </div>
+        
+        <button class="accordion">FAQ</button>
+            <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+        
+        <button class="accordion">Contract</button>
+            <div class="panel">
+            <a href="br_contract.pdf" download="contract">Download PDF Game Contract</a>
+        </div>
+      
+    <h1 id="gm_contact">GM Contact</h1>
+      <a href="">Mobile</a>
+      <br>
+      <a href="">Slack</a>
+
+    <script type="text/javascript" src="core.js"></script>
+</body>
+</html>
