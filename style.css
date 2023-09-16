@@ -154,3 +154,11 @@ th, td {
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+  /* Style contact buttons */
+  .contact {
+    background-color: #04AA6D;
+    color: white;
+    display: block;
+    padding: 14px 16px;  
+  }
